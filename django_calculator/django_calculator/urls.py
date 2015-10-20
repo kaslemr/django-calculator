@@ -20,5 +20,4 @@ from calculator.views import index_view
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', index_view, name='index')
-    #url(r'^user/(?P<username>\w{1,50})/$', view='index_view')
 ]
